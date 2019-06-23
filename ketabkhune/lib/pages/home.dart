@@ -39,7 +39,7 @@ class _HomePageState extends State<HomePage> {
             ListTile(
               leading: Icon(Icons.info),
               title: Text('about'),
-              onLongPress: () {
+              onTap: () {
                 Navigator.pushNamed(context, '/info');
               },
             ),
